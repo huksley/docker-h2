@@ -1,6 +1,7 @@
 # Dockerized h2 database
 
 This repository contains `H2 Database` image from `www.h2database.com`
+work based on https://github.com/1000kit/docker-h2
 
 ### Installed versions:
 
