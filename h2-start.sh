@@ -16,6 +16,7 @@ ${H2DIR}/bin/h2.sh \
  	-webPort 8181 \
  	-tcp \
  	-tcpAllowOthers \
- 	-tcpPort 1521
- 	
-#end
+ 	-tcpPort 1521 \
+ 	-pg \
+ 	-pgAllowOthers \
+ 	-pgPort 5435

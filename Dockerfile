@@ -21,5 +21,5 @@ RUN apk --update add --no-cache curl \
 USER h2
 WORKDIR ${H2DIR}
 VOLUME ${H2DATA}
-EXPOSE 8181 1521
+EXPOSE 8181 1521 5435
 CMD ["/opt/h2/bin/h2-start.sh"]
